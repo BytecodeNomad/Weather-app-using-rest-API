@@ -1,0 +1,70 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: darkblue;
+  color: white;
+}
+
+.header .heading {
+  font-style: normal !important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+input.search {
+  background: darkblue;
+  border: 1px solid darkblue;
+  font-size: 2rem;
+  border-bottom-color: red;
+  width: 35%;
+}
+input.search::placeholder {
+  color: white;
+}
+input.search:focus {
+  outline: none;
+}
+.search-btn {
+  padding: 0.4rem 0.7rem;
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03rem;
+  font-weight: 450;
+  font-size: 1rem;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.card {
+  margin-top: 2rem;
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 1.3rem 2rem;
+  box-shadow: 8px 8px 1px 1px #06094a;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.card > * + * {
+  margin-top: 2rem;
+}
+.card .city {
+  font-size: 1rem;
+}
+.card .temperature {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.temperature .measure-o-temp {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.descript {
+  color: rgb(175, 169, 169);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
