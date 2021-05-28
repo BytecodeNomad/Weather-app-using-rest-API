@@ -28,7 +28,7 @@ btn.addEventListener("click", (e) => {
     .then((data) => {
       let city = document.querySelector(".search").value;
       displayArea.insertAdjacentHTML(
-        "beforeend",
+        "afterbegin",
         `
     <div class="card">
         <div class="city">${city.toUpperCase()}</div>
